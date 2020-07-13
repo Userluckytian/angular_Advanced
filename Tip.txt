@@ -1,0 +1,30 @@
+本次要尝试的是：
+module之间的数据通信
+不仅如此，
+module之间的模块又如何通信呢？
+这些将导致你要构建一个新的模块：shareModule
+。同时，我期望你会多构建一些界面，
+便于自己去理解：在同一个界面上，无刷新状态却实现了页面的跳转。
+最后，我期望你去使用一些服务。即使这些服务只是打印了一些简单的提示信息。
+同时，我们将会使用git命令来尝试或者更加的熟练使用git命令。
+通过以上，你可能还不够理解状态管理机制：Rxjs。
+不用担心。我们总会学到它！so，let's start！
+
+
+
+
+项目创建好后。
+（1）我们有了本地的master分支（vscode可查）
+（2）利用 git checkout -b tianlk_pro7 构建新的分支
+（3）然后我们后续的代码会在这里（tianlk_pro7）去写！
+（4）写完了吗？那就提交吧。到哪里？先提交到本地master如何？
+（5）切换到master分支上，执行git merge tianlk_pro7。
+（6）是的，那么接下来就把master提交上去如何？look!
+    https://blog.csdn.net/qq_36436877/article/details/80207325?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.nonecase
+    or this:
+    https://www.cnblogs.com/cxk1995/p/5800196.html
+（7）之后应该就是正常的了。
+以上当然是可行的。
+但是在实际里，我们往往会在远程构建一个origin/tianlk_pro7。
+so，奇怪的问题又来了，你将如何创建呢？（git push origin tianlk_pro7）
+而将代码合并到本地master再提交的目的又是什么呢?
