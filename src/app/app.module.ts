@@ -8,7 +8,10 @@ import { AppComponent } from './app.component';
 
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 
-
+// TODO:7:引入a-Module
+// import { AModuleModule } from './a-module/a-module.module';
+// TODO:8:引入b-module(会报错！)
+// import { BModuleModule } from './b-module/b-module.module';
 
 
 @NgModule({
@@ -19,7 +22,9 @@ import { NgZorroAntdModule } from 'ng-zorro-antd';
       BrowserModule,
       NgZorroAntdModule,
       CommonModule,
-      AppRoutingModule
+      // AModuleModule,  // 先导入子模块
+      // BModuleModule, //为啥这个不能引呢？
+      AppRoutingModule // 再导入主模块
    ],
    providers: [],
    bootstrap: [
