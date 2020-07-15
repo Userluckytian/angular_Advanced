@@ -11,26 +11,6 @@ const Aroutes: Routes = [
   {
     path: '',
     component: AModuleComponent,
-    // children: [
-      //   {
-      //     path: 'acomponent',
-      //     component: AComponentComponent,
-      //   },
-      //   {
-      //     path: 'bcomponent',
-      //     component: BComponentComponent,
-      //   },
-      // {
-      //   path: '',  // 空路由
-      //   redirectTo: 'acomponent', // 重定向到
-      //   pathMatch: 'full'
-      // },
-      // {
-      //   path: '**',  // 任意路由
-      //   redirectTo: 'bcomponent', // 重定向到
-      //   pathMatch: 'full'
-      // }
-    // ]
   }
 ];
 
